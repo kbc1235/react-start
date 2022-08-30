@@ -4,6 +4,8 @@
   line-height: 40px;
   padding: 20px;
   border:1px solid tomato;
+  color:tomato;
+  font-weight:bold;
 }
 .item + .item{
     margin-top:10px;

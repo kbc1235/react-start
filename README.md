@@ -1,2 +1,6 @@
-# react-start
-Created with CodeSandbox
+# TODO List
+
+1. 기능
+ - 인풋창 버튼
+ - 인풋창에 값을 입력하고 버튼을 눌러 아이템 추가
+ - 아이템 삭제 버튼을 누르면 해당 아이템 삭제

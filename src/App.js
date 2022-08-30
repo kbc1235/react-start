@@ -1,9 +1,12 @@
-import Gugudan from './componet/Gugudan';
+import Todolist_sample from './componet/Todolist_sample';
 
-export default function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <Gugudan />
+       <Todolist_sample />
     </div>
   );
 }
+
+export default App;

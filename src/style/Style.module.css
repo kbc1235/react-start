@@ -1,12 +1,20 @@
+.inputBox {
+  width: 100%;
+}
 .item {
+  display: flex;
   width: 100%;
   height: auto;
   line-height: 40px;
   padding: 20px;
-  border:1px solid tomato;
-  color:tomato;
-  font-weight:bold;
+  border: 1px solid tomato;
+  color: tomato;
+  font-weight: bold;
 }
-.item + .item{
-    margin-top:10px;
+.item + .item {
+  margin-top: 10px;
+}
+
+.btnBox {
+  margin-left: auto;
 }

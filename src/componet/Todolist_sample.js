@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Styles from '../style/Style.module.css';
 import TodoBoard from './TodoBoard';
 
 const Todolist_sample = ()=>{
@@ -10,11 +11,13 @@ const Todolist_sample = ()=>{
     }
     return(
         <div>
-            <input type="text" value={inputValue} onChange={ (e)=>{setInputValue(e.target.value)} }/>
-            <button type="button" onClick={addItem}>추가</button>
-            
+            <div className={Styles.inputBox}>
+                <input type="text" value={inputValue} onChange={ (e)=>{setInputValue(e.target.value)} }/>
+                <button type="button" onClick={addItem}>추가</button>
+            </div>
             <TodoBoard todoList={todoList}/>
         </div>
+        
     )
 }
 

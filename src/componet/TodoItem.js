@@ -5,7 +5,7 @@ const TodoItem = (props) =>{
     return(
         <div className={Styles.item}>
             <div>{props.item}</div>
-            <div>
+            <div class={Styles.btnBox}>
                 <button type="button">삭제</button>
             </div>
         </div>

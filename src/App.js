@@ -1,3 +1,4 @@
+import './style/reset.css';
 import Todolist_sample from './componet/Todolist_sample';
 
 
